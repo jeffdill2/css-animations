@@ -1,0 +1,6 @@
+Come up with 30 examples of CSS3 styles or interactions.
+Doesn't have to be mindblowing examples - just certain effects or interactions.
+Hover over effects, keyframes, inverting colors, etc.
+
+Create a site with individual chunks to show off each effect.
+Due Monday at 8am.

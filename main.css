@@ -1,0 +1,19 @@
+body {
+	padding: 100px;
+}
+
+.example {
+	width: 200px;
+	height: 200px;
+	background: red;
+	transition: all 1s ease;
+}
+
+.example:hover {
+	background: blue;
+	border-radius: 50%;
+}
+
+.example:active {
+	opacity: 0.5;
+}
