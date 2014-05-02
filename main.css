@@ -1,19 +1,348 @@
+/*//////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////// TAGS
+//////////////////////////////////////////////////////////*/
 body {
-	padding: 100px;
+	background: url('images/logo.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.example {
-	width: 200px;
-	height: 200px;
-	background: red;
-	transition: all 1s ease;
+/*//////////////////////////////////////////////////////////
+///////////////////////////////////////////////// CONTAINERS
+//////////////////////////////////////////////////////////*/
+.section-block {
+	background-color: rgba(40, 40, 40, 0.60);
+	box-shadow: 0px -2px 12px 12px rgba(40, 40, 40, 0.60);
+	height: 0 auto;
+	margin: 50px auto;
+	max-width: 1200px;
+	min-width: 800px;
+	min-height: 400px;
+	padding: 50px;
+	position: relative;
 }
 
-.example:hover {
-	background: blue;
+.interior-block {
+	background-color: rgba(200, 200, 200, 0.70);
+	left: 30px;
+	right: 30px;
+	top: 30px;
+	bottom: 30px;
+	margin: 0 auto;
+	padding: 40px;
+	position: absolute;
+}
+
+.section-header {
+	width: 500px;
+	height: 70px;
+	float: right;
+	text-align: right;
+}
+
+/*//////////////////////////////////////////////////////////
+///////////////////////////////////////////////// TYPOGRAPHY
+//////////////////////////////////////////////////////////*/
+.section-number {
+	color: rgba(40, 40, 40, 0.80);
+	font-family: Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.section-name {
+	color: rgba(40, 40, 40, 0.80);
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/*//////////////////////////////////////////////////////////
+///////////////////////////////////////////////////// SHAPES
+//////////////////////////////////////////////////////////*/
+.circle {
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 }
 
-.example:active {
-	opacity: 0.5;
+.square {
+	width: 100px;
+	height: 100px;
 }
+
+.rectangle {
+	width: 100px;
+	height: 150px;
+}
+
+.large-rectangle {
+	width: 150px;
+	height: 250px;
+}
+
+.hole {
+	width: 200px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.pool-stick {
+	width: 300px;
+	height: 8px;
+	background-color: #B56844;
+}
+
+/*//////////////////////////////////////////////////////////
+////////////////////////////////////// TRANSITION SECTION #1
+//////////////////////////////////////////////////////////*/
+.transition-1 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 50px;
+	padding-top: 160px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-1 .shape-1 {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.transition-1:hover .shape-1 {
+	margin-left: 900px;
+	margin-top: 150px;
+	background-color: black;
+	transition: margin-left 		0.75s ease-out,
+				margin-top			0.5s linear 0.5s,
+				background-color 	0s linear 1.15s;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-1 .shape-2 {
+	margin-left: 855px;
+	margin-top: 50px;
+}
+
+.transition-1:hover .shape-2 {
+	margin-top: -100px;
+	transition: all 0.5s linear 0.5s;
+}
+
+/*//////////////////////////////////////////////////////////
+////////////////////////////////////// TRANSITION SECTION #2
+//////////////////////////////////////////////////////////*/
+.transition-2 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 160px;
+	padding-top: 160px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-2 .shape-1 {
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.transition-2:hover .shape-1 {
+	margin-left: 205px;
+	margin-right: -4px;
+	transition: all 0.55s ease-in;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-2 .shape-2 {
+	display: inline-block;
+}
+
+/*//////// SHAPE 3 ////////*/
+.transition-2 .shape-3 {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+/*//////// SHAPE 4 ////////*/
+.transition-2 .shape-4 {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+/*//////// SHAPE 5 ////////*/
+.transition-2 .shape-5 {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+.transition-2:hover .shape-5 {
+	margin-left: 200px;
+	transition: all 0.5s ease-out 0.5s;
+}
+
+/*//////////////////////////////////////////////////////////
+////////////////////////////////////// TRANSITION SECTION #3
+//////////////////////////////////////////////////////////*/
+.transition-3 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 300px;
+	padding-top: 140px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-3 .shape-1 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-3:hover .shape-1 {
+	margin-left: 420px;
+	transition: all 0.75s ease-out 1.25s;
+	z-index: 5;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-3 .shape-2 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-3:hover .shape-2 {
+	margin-left: 440px;
+	transition: all 0.75s ease-out 1s;
+	z-index: 4;
+}
+
+/*//////// SHAPE 3 ////////*/
+.transition-3 .shape-3 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-3:hover .shape-3 {
+	margin-left: 460px;
+	transition: all 0.75s ease-out 0.75s;
+	z-index: 3;
+}
+
+/*//////// SHAPE 4 ////////*/
+.transition-3 .shape-4 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-3:hover .shape-4 {
+	margin-left: 480px;
+	transition: all 0.75s ease-out 0.5s;
+	z-index: 2;
+}
+
+/*//////// SHAPE 5 ////////*/
+.transition-3 .shape-5 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-3:hover .shape-5 {
+	margin-left: 500px;
+	transition: all 0.75s ease-out 0.25s;
+	z-index: 1;
+}
+
+/*//////////////////////////////////////////////////////////
+////////////////////////////////////// TRANSITION SECTION #4
+//////////////////////////////////////////////////////////*/
+.transition-4 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 50px;
+	padding-top: 160px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-4 .shape-1 {
+	display: inline-block;
+	margin-left: 100px;
+	-webkit-transform: rotate(60deg);
+}
+
+.transition-4:hover .shape-1 {
+	margin-left: 80px;
+	margin-top: 10px;
+	transition: all 0.02s ease 0.1s;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-4 .shape-2 {
+	margin-left: 155px;
+	margin-top: -180px;
+	-webkit-transform-origin: 200px 140px;
+	transform-origin: 100px 120px;
+}
+
+.transition-4:hover .shape-2 {
+	margin-left: 700px;
+	margin-top: -400px;
+	background-color: black;
+	-webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease,
+    			background-color 0s linear 0.1s;
+}
+
+/*//////////////////////////////////////////////////////////
+///////////////////////////////////////////////////// COLORS
+//////////////////////////////////////////////////////////*/
+.red {
+	background-color: red;
+}
+
+.white {
+	background-color: white;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.green {
+	background-color: green;
+}
+
+.black {
+	background-color: black;
+}
+
+

@@ -1,0 +1,79 @@
+body {
+	padding: 100px;
+}
+
+body * {
+	vertical-align: middle;
+}
+
+.example {
+	padding: 20px;
+	width: 350px;
+	height: 200px;
+	background: teal;
+	transition: all 1s ease;
+}
+
+.example:hover {
+	background: teal;
+	border-radius: 60px;
+	width: 500px;
+}
+
+.chart {
+	width: 80px;
+	height: 0;
+	display: inline-block;;
+	margin-right: 20px;
+	border: 1px solid blue;
+	transition: all 1s ease;
+	vertical-align: middle;
+}
+
+.example:hover .small {
+	height: 40px;
+	background: linear-gradient(to left, blue 50%, red 100%);
+	transition: all 1s ease;
+}
+
+.example:hover .medium {
+	height: 80px;
+	background: blue;
+	transition: all 0.5s ease;
+}
+
+.example:hover .large {
+	height: 120px;
+	background: red;
+	transition: all 0.75s ease;
+}
+
+.button {
+	background: orange;
+	margin: 60px auto;
+	width: 200px;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	font-size: 26px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bolder;
+	color: white;
+	border-radius: 8px;
+	line-height: 50px;
+	text-shadow: 0px -1px 0px black;
+	box-shadow: inset 	0px -6px 0px black,
+						0px 0px 0px 5px blue;
+}
+
+.button:hover {
+	height: 47px;
+	margin-top: 63px;
+	box-shadow: inset 0px -3px 0px black;
+}
+
+.button:active {
+	height: 44px;
+	margin-top: 66px;
+	box-shadow: inset 0px 3px 0px black;
+}
