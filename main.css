@@ -946,6 +946,71 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #15
+//////////////////////////////////////////////////////////*/
+.transition-15 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 25%;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-15 .shape-1 {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+.transition-15:hover .shape-1 {
+	-webkit-animation: bounce 2.5s cubic-bezier(0, 0, 0.35, 1);
+}
+
+@-webkit-keyframes bounce {
+	0% {
+		-webkit-transform: translateY(-230px); 
+		-webkit-animation-timing-function: ease-in;
+	}
+
+	24% {
+		-webkit-transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+	}
+
+	38% {
+		-webkit-transform: translateY(-100px);
+		-webkit-animation-timing-function: ease-in;
+	}
+
+	55% {
+		-webkit-transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+	}
+
+	65% {
+		-webkit-transform: translateY(-52px);
+		-webkit-animation-timing-function: ease-in;
+	}
+
+	75% {
+		-webkit-transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+	}
+
+	82% {
+		-webkit-transform: translateY(-25px);
+		-webkit-animation-timing-function: ease-in;
+	}
+	
+	88%{
+		-webkit-transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+	}
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
