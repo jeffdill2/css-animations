@@ -6,11 +6,11 @@
 6. Rainbow forming
 7. Pool Balls Break
 8. Pool Ball Rolling
-9. Filling up cup
-10. Ball rolling down stairs
-11. 
-12. 
-13. 
+9. Resize box
+10. Cookie monster
+11. Door opening
+12. Pages turning
+13. Pacman
 14. 
 15. 
 16. 
@@ -27,4 +27,4 @@
 27. 
 28. 
 29. 
-30. 
+30. Superman Phantom Zone
