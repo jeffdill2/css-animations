@@ -10,7 +10,7 @@
 10. Cookie monster
 11. Door opening
 12. Pages turning
-13. Pacman
+13. 
 14. 
 15. 
 16. 
@@ -27,4 +27,4 @@
 27. 
 28. 
 29. 
-30. Superman Phantom Zone
+30. Pacman
