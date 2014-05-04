@@ -731,6 +731,72 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #11
+//////////////////////////////////////////////////////////*/
+.transition-11 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 42px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-11 .shape-1 {
+	display: block;
+	margin: 0 auto;
+	border: 6px solid brown;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-11 .shape-2 {
+	display: block;
+	margin: 0 auto;
+}
+
+.transition-11:hover .shape-2 {
+	-webkit-animation: door-open 0.75s ease 0.75s alternate 2;
+	-animation: door-open 0.75s ease 0.75s alternate 2;
+}
+
+@-webkit-keyframes door-open {
+	from {
+		-webkit-transform: perspective(1000) rotateY(0deg);
+		-webkit-transform-origin: 0% 0%;
+	}
+	to {
+		-webkit-transform: perspective(1000) rotateY(90deg);
+		-webkit-transform-origin: 0% 0%;
+	}
+}
+
+/*//////// SHAPE 3 ////////*/
+.transition-11 .shape-3 {
+	box-shadow: 1px 1px 10px 1px black;
+	display: block;
+	margin-left: 140px;
+	margin-top: 160px;
+	position: absolute;
+}
+
+.transition-11:hover .shape-3 {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	transition: all 0.75s linear;
+}
+
+/*//////// SHAPE 4 ////////*/
+.transition-11 .shape-4 {
+	display: block;
+	margin-left: 5px;
+	position: relative;
+	top: 20px;
+	width: 20%;
+	height: 20%;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
@@ -769,4 +835,6 @@ body {
 	background-color: black;
 }
 
-
+.brown {
+	background-color: sienna;
+}
