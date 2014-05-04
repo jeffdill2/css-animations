@@ -86,9 +86,19 @@ body {
 	border-radius: 50%;
 }
 
-.square {
+.small-square {
 	width: 100px;
 	height: 100px;
+}
+
+.medium-square {
+	width: 200px;
+	height: 200px;
+}
+
+.large-square {
+	width: 300px;
+	height: 300px;
 }
 
 .small-rectangle {
@@ -909,6 +919,30 @@ body {
 .transition-13:hover .shape-1 {
 	background-color: yellow;
 	transition: all 1s ease-out;
+}
+
+/*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #14
+//////////////////////////////////////////////////////////*/
+.transition-14 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 70px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-14 .shape-1 {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+.transition-14:hover .shape-1 {
+	border-radius: 50%;
+	transition: all 0.5s linear;
 }
 
 /*//////////////////////////////////////////////////////////
