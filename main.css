@@ -1627,7 +1627,7 @@ body {
 	margin-top: 33%;
 	height: 10%;
 	width: 60%;
-	transition: all 0.25s ease;
+	transition: all 0.5s ease;
 }
 
 /*//////////////////////////////////////////////////////////
@@ -1733,6 +1733,42 @@ body {
 	50% {
 		margin-left: 300px;
 	}
+}
+
+/*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #29
+//////////////////////////////////////////////////////////*/
+.transition-29 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 45%;
+	padding-top: 150px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-29:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1.25s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-29 .shape-1 {
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+}
+
+.transition-29:hover .shape-1 {
+	-webkit-animation: float 3s ease-out infinite;
+}
+
+@-webkit-keyframes float {
+  50% {
+     -webkit-transform: translate(0px, 30px);
+  }
 }
 
 /*//////////////////////////////////////////////////////////
