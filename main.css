@@ -1333,6 +1333,92 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #21
+//////////////////////////////////////////////////////////*/
+.transition-21 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 45%;
+	padding-top: 70px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-21:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 3.75s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-21 .shape-1 {
+	display: block;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-21 .shape-2 {
+	display: block;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+.transition-21:hover .shape-2 {
+	opacity: 0;
+	transition: all 5s linear;
+}
+
+/*//////// SHAPE 3////////*/
+.transition-21 .shape-3{
+	display: block;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+.transition-21:hover .shape-3 {
+	opacity: 0;
+	transition: all 4s linear;
+}
+
+/*//////// SHAPE 4 ////////*/
+.transition-21 .shape-4 {
+	display: block;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+.transition-21:hover .shape-4 {
+	opacity: 0;
+	transition: all 3s linear;
+}
+
+/*//////// SHAPE 5 ////////*/
+.transition-21 .shape-5 {
+	display: block;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+.transition-21:hover .shape-5 {
+	opacity: 0;
+	transition: all 2s linear;
+}
+
+/*//////// SHAPE 6 ////////*/
+.transition-21 .shape-6 {
+	display: block;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+.transition-21:hover .shape-6 {
+	opacity: 0;
+	transition: all 1s linear;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {

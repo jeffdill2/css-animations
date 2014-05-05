@@ -19,8 +19,8 @@
 19. Lottery scratcher
 20. Bar Graph
 21. Cycle through div colors - divs on top of each other, change opacity one at a time
-22. 
-23. 
+22. Push Button
+23. Enlarge text right off screen - zoom towards you
 24. 
 25. 
 26. 
