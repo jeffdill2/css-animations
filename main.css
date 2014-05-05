@@ -1419,6 +1419,58 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #22
+//////////////////////////////////////////////////////////*/
+.transition-22 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 40%;
+	padding-top: 120px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-22:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1.25s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-22 .shape-1 {
+	background-color: rgba(255, 255, 255, 0.0);
+	display: block;
+	height: 200px;
+	line-height: 200px;
+	position: absolute;
+	text-align: center;
+	width: 350px;
+}
+
+.transition-22:hover .shape-1 {
+	-webkit-animation: scale 10s ease;
+}
+
+@-webkit-keyframes scale {
+	0% {
+		-webkit-transform: scale(1, 1);
+	}
+
+	20% {
+		-webkit-transform: scale(500, 500);
+	}
+
+	25% {
+		-webkit-transform: scale(3, 3);
+	}
+
+	27% {
+		-webkit-transform: scale(1, 1);
+	}
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
