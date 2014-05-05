@@ -1772,6 +1772,59 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #30
+//////////////////////////////////////////////////////////*/
+.transition-30 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 45%;
+	padding-top: 70px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-30:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1.25s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-30 .shape-1 {
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.transition-30:hover .shape-1 {
+	-webkit-animation: wobble 3s ease-out infinite;
+}
+
+@-webkit-keyframes wobble {
+	20% {
+		-webkit-transform: skewX(30deg);
+		-webkit-transform-origin: bottom;
+	}
+
+	40% {
+		-webkit-transform: skewX(-30deg);
+		-webkit-transform-origin: bottom;
+	}
+
+	60% {
+		-webkit-transform: skewX(30deg);
+		-webkit-transform-origin: bottom;
+	}
+
+	80% {
+		-webkit-transform: skewX(-30deg);
+		-webkit-transform-origin: bottom;
+	}
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
