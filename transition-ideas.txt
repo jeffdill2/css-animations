@@ -17,8 +17,8 @@
 17. Snowball
 18. Reverse rotation
 19. Lottery scratcher
-20. 
-21. 
+20. Bar Graph
+21. Cycle through div colors - divs on top of each other, change opacity one at a time
 22. 
 23. 
 24. 
