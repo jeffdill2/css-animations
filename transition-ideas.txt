@@ -21,7 +21,7 @@
 21. Cycle through div colors - divs on top of each other, change opacity one at a time
 22. Enlarge text right off screen - zoom towards you
 23. Push Button
-24. 
+24. Pulsing Balls
 25. 
 26. 
 27. 
