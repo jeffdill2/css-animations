@@ -1471,6 +1471,53 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #23
+//////////////////////////////////////////////////////////*/
+.transition-23 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 40%;
+	padding-top: 120px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-23:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in .5s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-23 .shape-1 {
+	border-radius: 8px;
+	box-shadow: inset 	0px -16px 0px rgb(130, 130, 147), 
+						2px 2px 1px rgb(111, 111, 126);
+	display: block;
+	height: 150px;
+	line-height: 150px;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+}
+
+.transition-23 .shape-1:hover {
+	margin-top: 20px;
+	margin-bottom: -20px;
+	box-shadow: inset 	0px -8px 0px rgb(130, 130, 147), 
+						2px 2px 1px rgb(111, 111, 126);
+	transition: all .2s ease;
+}
+
+.transition-23 .shape-1:active {
+	margin-top: 26px;
+	margin-bottom: -26px;
+	box-shadow: inset	0px -4px 0px rgb(130, 130, 147),
+						2px 2px 1px rgb(111, 111, 126);
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
