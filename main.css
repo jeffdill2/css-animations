@@ -1662,6 +1662,37 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #27
+//////////////////////////////////////////////////////////*/
+.transition-27 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 45%;
+	padding-top: 50px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-27:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1.25s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-27 .shape-1 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-27:hover .shape-1 {
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: bottom right;
+	transition: all 1.25s ease-in;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
