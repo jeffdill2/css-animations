@@ -1631,6 +1631,37 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #26
+//////////////////////////////////////////////////////////*/
+.transition-26 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 38%;
+	padding-top: 75px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-26:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1.25s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-26 .shape-1 {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+}
+
+.transition-26:hover .shape-1 {
+	box-shadow: inset 0px 0px 200px 100px #FFFFFF;
+	transition: all 1.25s linear;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
