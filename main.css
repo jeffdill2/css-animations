@@ -1038,6 +1038,36 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #17
+//////////////////////////////////////////////////////////*/
+.transition-17 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 40px;
+	padding-top: 70px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-17 .shape-1 {
+	display: block;
+	position: relative;
+	background-image: -webkit-gradient(radial, center bottom, 0, center bottom, 100, color-stop(0, #FFFFFF), color-stop(1, #222233));
+	background-image: -webkit-radial-gradient(center bottom, ellipse farthest-corner, #FFFFFF 20%, #222233 250%);
+}
+
+.transition-17:hover .shape-1 {
+	width: 300px;
+	height: 300px;
+	margin-left: 750px;
+	-webkit-transform: rotate(660deg);
+	transform: rotate(660deg);
+	transition: all 1s ease-in;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {

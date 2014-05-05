@@ -14,8 +14,8 @@
 14. Shape-shifter
 15. Bouncing ball
 16. Circle appear
-17. 
-18. 
+17. Snowball
+18. Rotate dotted circle, smaller dotted circle rotates opposite inside
 19. 
 20. 
 21. 
