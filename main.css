@@ -1693,6 +1693,49 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #28
+//////////////////////////////////////////////////////////*/
+.transition-28 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 40%;
+	padding-top: 70px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-28:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1.25s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-28 .shape-1 {
+	display: inline-block;
+	position: absolute;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-28 .shape-2 {
+	display: inline-block;
+	position: absolute;
+}
+
+.transition-28:hover .shape-2 {
+	-webkit-animation: swap 1.25s alternate forwards;
+	z-index: -1;
+	transition: all 0s linear .5s;
+}
+
+@-webkit-keyframes swap {
+	50% {
+		margin-left: 300px;
+	}
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
