@@ -1237,6 +1237,48 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #19
+//////////////////////////////////////////////////////////*/
+.transition-19 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-left: 38%;
+	padding-top: 120px;
+}
+
+/*///////// EXPLANATION //////////*/
+.transition-19:hover .explanation {
+	opacity: 1;
+	transition: all .25s ease-in 1s;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-19 .shape-1 {
+	display: inline-block;
+	position: absolute;
+	height: 200px;
+	width: 350px;
+	text-align: center;
+	line-height: 200px;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-19 .shape-2 {
+	display: inline-block;
+	position: absolute;
+	height: 200px;
+	width: 350px;
+}
+
+.transition-19:hover .shape-2 {
+	opacity: 0;
+	transition: all 3.5s ease-out;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
