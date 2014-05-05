@@ -1068,6 +1068,47 @@ body {
 }
 
 /*//////////////////////////////////////////////////////////
+///////////////////////////////////// TRANSITION SECTION #18
+//////////////////////////////////////////////////////////*/
+.transition-18 {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 50px;
+}
+
+/*//////// SHAPE 1 ////////*/
+.transition-18 .shape-1 {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	border: 40px dotted orange;
+}
+
+.transition-18:hover .shape-1 {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	transition: all 4s linear;
+}
+
+/*//////// SHAPE 2 ////////*/
+.transition-18 .shape-2 {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 25%;
+	border: 40px dotted orange;
+}
+
+.transition-18:hover .shape-2 {
+	-webkit-transform: rotate(-700deg);
+	transform: rotate(-700deg);
+	transition: all 4s linear;
+}
+
+/*//////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// COLORS
 //////////////////////////////////////////////////////////*/
 .red {
